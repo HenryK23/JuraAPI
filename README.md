@@ -4,6 +4,8 @@ This is run on the ASP.NET and uses the entityframework and SQLite to create the
 
 If you want to run this on your own device you will need to use the EF tools to create a new migration and update database I believe although I am not sure. 
 
+If database doesnt work I also added with the controller an option to just use a list - it works the exact same as the database. 
+
 If you find that the database is empty you can use this query string to fill it: 
 
 INSERT INTO Notes (Id, Title, Description, DueDate)
